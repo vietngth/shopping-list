@@ -1,0 +1,119 @@
+/** @format */
+
+:root {
+  --white: #ffffff;
+  --charcoal-grey: #3d3d3f;
+  --white-two: #f6f6f6;
+  --white-three: #ededed;
+  --white-four: #d4d3d3;
+  --pea-green: #82bf11;
+  --strawberry: #f63f45;
+  --pumpkin-orange: #ff7413;
+  --bright-orange: #615349;
+  --apricot: #ffc371;
+  --greyish-brown: #4d4d4d;
+  --pinkish-grey: #cccccc;
+  --greyish: #acacac;
+  --cornflower-50: rgba(95, 109, 255, 0.5);
+  --greyish-two: #b7b7b7;
+  --white-five: #fbfbfb;
+  --dark-grey: #202124;
+  --brown-grey: #979797;
+  --black-8: rgba(0, 0, 0, 0.08);
+  --white-six: #eaeaea;
+}
+
+body,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+}
+
+/** Text Style**/
+.text-style {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: var(--dark-grey);
+}
+.text-style-2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--greyish-two);
+}
+.text-style-3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: var(--dark-grey);
+}
+.text-style-4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--white);
+}
+.text-style-5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--dark-grey);
+}
+.text-style-6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: var(--white);
+}
+.text-style-7 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--greyish);
+}
+.text-style-8 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: var(--charcoal-grey);
+}
