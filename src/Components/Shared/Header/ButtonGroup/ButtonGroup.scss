@@ -1,0 +1,20 @@
+/** @format */
+
+.button-group {
+  height: 100%;
+  display: flex;
+  align-self: center;
+  &.button-group__register {
+    margin-right: 24px;
+  }
+  &.button-group__login {
+    height: 35px;
+    width: 120px;
+  }
+  &.button-group__cart {
+    margin-left: 29px;
+  }
+}
+.button-group__cart-icon {
+  font-size: 20px;
+}
