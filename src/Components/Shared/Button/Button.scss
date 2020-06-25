@@ -1,0 +1,22 @@
+/** @format */
+.button {
+  outline: none !important;
+  padding: 0;
+  width: 100%;
+  &:hover {
+    cursor: pointer;
+  }
+  &.button--none {
+    background: none;
+    border: none;
+    color: var(--greyish-brown);
+    font-weight: 500;
+  }
+  &.button--orange {
+    background: none;
+    border-radius: 100px;
+    border: solid 1px #ffa15f;
+    color: #ff7e24;
+    font-weight: bold;
+  }
+}
