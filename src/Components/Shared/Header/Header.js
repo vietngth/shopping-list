@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.scss';
 import ButtonGroup from './ButtonGroup/ButtonGroup';
 import SearchBar from './SearchBar/SearchBar';
+import DropdownMenu from './DropdownMenu/DropdownMenu';
 
 const Header = () => {
       const PATH = process.env.PUBLIC_URL;
@@ -19,7 +20,7 @@ const Header = () => {
                         </div>
                   </div>
                   <div className="header__second-row">
-                        Second Row
+                        <DropdownMenu />
                   </div>
             </>
       )

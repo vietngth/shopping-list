@@ -21,6 +21,7 @@
 .header__logo-container {
   width: auto;
   height: 30px;
+  margin-left: 60px;
 }
 
 .header__logo {
@@ -37,4 +38,5 @@
   flex-grow: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
