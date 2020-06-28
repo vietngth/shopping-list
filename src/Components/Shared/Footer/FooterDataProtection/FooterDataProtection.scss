@@ -1,0 +1,9 @@
+/** @format */
+
+.footer__protection-item {
+  text-decoration: none;
+  color: var(--greyish-two);
+  &:last-child {
+    margin-left: 21px;
+  }
+}
