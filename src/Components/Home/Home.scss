@@ -1,0 +1,25 @@
+/** @format */
+
+.home__main-container {
+  position: relative;
+  height: 513px;
+  .home__main-text {
+    position: absolute;
+    top: 71px;
+    right: 83px;
+    width: 545px;
+    height: 45px;
+    font-family: "Domine", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 0.94;
+    color: var(--white);
+  }
+  .home__main-button {
+    position: absolute;
+    right: 47px;
+    bottom: 73px;
+    width: 180px;
+    height: 49px;
+  }
+}
