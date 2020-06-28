@@ -3,6 +3,8 @@
   outline: none !important;
   padding: 0;
   width: 100%;
+  height: 100%;
+  background-color: #ffa15f;
   &:hover {
     cursor: pointer;
   }
@@ -12,11 +14,19 @@
     color: var(--greyish-brown);
     font-weight: 500;
   }
-  &.button--orange {
+  &.button--white {
     background: none;
     border-radius: 100px;
     border: solid 1px #ffa15f;
     color: #ff7e24;
     font-weight: bold;
+  }
+  &.button--orange {
+    border: none;
+    box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.12);
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: var(--white);
   }
 }

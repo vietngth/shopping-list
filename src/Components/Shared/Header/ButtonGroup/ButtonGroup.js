@@ -6,13 +6,13 @@ const ButtonGroup = () => {
       return (
             <>
                   <div className="button-group button-group__register">
-                        <Button>Register</Button>
+                        <Button classInput="button--none">Register</Button>
                   </div>
                   <div className="button-group button-group__login">
-                        <Button classInput="button--orange">Log In</Button>
+                        <Button classInput="button--white">Log In</Button>
                   </div>
                   <div className="button-group button-group__cart">
-                        <Button><i className="button-group__cart-icon fas fa-shopping-cart"></i></Button>
+                        <Button classInput="button--none"><i className="button-group__cart-icon fas fa-shopping-cart"></i></Button>
                   </div>
             </>
       )

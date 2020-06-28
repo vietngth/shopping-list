@@ -6,6 +6,7 @@
     cursor: pointer;
     .dropdown__menu {
       display: flex;
+      z-index: 1;
     }
   }
 }
