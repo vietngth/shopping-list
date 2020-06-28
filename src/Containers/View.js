@@ -1,16 +1,19 @@
 import React from 'react';
 import './View.scss';
 import Header from '../Components/Shared/Header/Header';
+import Footer from '../Components/Shared/Footer/Footer';
 
 const View = () => {
 
       return (
             <div className="view">
                   <div className="view__header">
-                        <Header/>
+                        <Header />
                   </div>
                   <div className="view__body">Main</div>
-                  <div className="view__footer">Footer</div>
+                  <div className="view__footer">
+                        <Footer />
+                  </div>
             </div>
       )
 }
